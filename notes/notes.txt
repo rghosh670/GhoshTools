@@ -1,0 +1,8 @@
+TODO:
+
+- If run_nf_script gets called more than once at the same time, the first one will be overwritten by the second one. 
+- Insert imports into function when it gets pickled
+    - write a function that greps for lines in the file that it's in for "import" and then actually import them - insert this into the functions that's being pickled
+- Make it easy to pass in CPU, GPU, Memory, time, and partition
+- Updating the poop.yml file takes too long - create yml that contains most of the libraries i need
+- Parallelize cleaning up of working dir/iterables dir
